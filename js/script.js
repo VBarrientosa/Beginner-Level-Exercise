@@ -1,26 +1,21 @@
-var numbers = {
-	num1: 0,
-	num2: 0,
-	total: 0
-}
-
-function getNumbers(nums) {
+function getNumbers() {
+	var numbers = {};
 	numbers.num1 = parseInt(document.getElementById("n1").value);
 	numbers.num2 = parseInt(document.getElementById("n2").value);
 	return numbers;
 }
 
 function sumNumbers() {
-	getNumbers();
-	numbers.total = (numbers.num1 + numbers.num2);
-	return numbers;
+	var numbers = getNumbers();
+	var total = (numbers.num1 + numbers.num2);
+	return total;
 }
 
 function setNumbers() {
-	sumNumbers();
-	if (isNaN(numbers.num1)||isNaN(numbers.num2)) {
+	var total = sumNumbers();
+	if (isNaN(total)) {
 		document.getElementById("result").innerHTML = "solo numeros";
 	} else {
-		document.getElementById("result").innerHTML = numbers.total;
+		document.getElementById("result").innerHTML = total;
 	}	
 }
