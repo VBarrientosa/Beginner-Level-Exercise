@@ -1,26 +1,26 @@
 .content {
-    background-color: #8ee0cf;
-    width: 800px;
-    height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  background-color: #8ee0cf;
+  width: 800px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 h1 {
-    color: #ffdae0;
-    text-align: center;
-    padding-top: 50px;
-    font-size: 80px;
+  color: #ffdae0;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 80px;
 }
 
 .form {
-    text-align: center;
-    width: 185px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 75px;
+  text-align: center;
+  width: 185px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 75px;
 }
 
 label {
@@ -28,9 +28,9 @@ label {
 }
 
 #btn {
-    background-color: #ffdae0;
-    color: #fff;
-    font-size: 20px;
-    margin-top: 10px;
-    border-radius: 5px;
+  background-color: #ffdae0;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
 }
